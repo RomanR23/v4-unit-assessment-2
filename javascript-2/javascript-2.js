@@ -35,7 +35,10 @@ let foods = [
   and then adding the results together. 
 */
 
-//CODE HERE
+foods.forEach(function(element){
+  let calories = (element.carbs * 4) + (element.protein * 4) + (element.fat * 9)
+  element.calories = calories
+})
 
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
